@@ -121,20 +121,6 @@ export default function About() {
               <li>✅ Design responsive et animations fluides</li>
             </ul>
 
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              🎯 Prochaines fonctionnalités
-            </h2>
-            <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-              <li>Système de notes et commentaires utilisateurs</li>
-              <li>Calcul automatique pour ajuster les portions</li>
-              <li>Timer intégré pour les étapes de cuisson</li>
-              <li>Partage social des recettes</li>
-              <li>Mode sombre / clair</li>
-              <li>Suggestions de recettes similaires</li>
-              <li>Export/impression des recettes</li>
-              <li>Base de données persistante</li>
-            </ul>
-
             <div className="bg-orange-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-orange-800 mb-2">
                 💡 Besoin d&apos;aide ?
