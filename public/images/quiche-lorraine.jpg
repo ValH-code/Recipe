@@ -1,6 +1,0 @@
-<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="300" fill="#fef3c7"/>
-  <circle cx="200" cy="150" r="80" fill="#f59e0b" opacity="0.3"/>
-  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#d97706">🥞</text>
-  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#92400e">Quiche Lorraine</text>
-</svg>

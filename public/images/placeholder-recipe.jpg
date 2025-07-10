@@ -1,6 +1,0 @@
-<!-- Placeholder SVG for recipes -->
-<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="300" fill="#f3f4f6"/>
-  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#6b7280">🍽️</text>
-  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9ca3af">Image de recette</text>
-</svg>

@@ -1,0 +1,13 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg6)"/>
+  <circle cx="200" cy="150" r="80" fill="#f59e0b" opacity="0.3"/>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#d97706">🥞</text>
+  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#92400e">Quiche Lorraine</text>
+  <text x="200" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#92400e">Spécialité de Lorraine</text>
+</svg>

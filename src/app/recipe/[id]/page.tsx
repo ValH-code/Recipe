@@ -86,7 +86,7 @@ export default function RecipePage() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = '/images/placeholder-recipe.jpg';
+                target.src = '/images/placeholder-recipe.svg';
               }}
             />
             <div className="absolute top-4 right-4">

@@ -5,7 +5,7 @@ export const mockRecipes: Recipe[] = [
     id: '1',
     title: 'Spaghetti Bolognaise',
     description: 'Un classique de la cuisine italienne avec une sauce riche et savoureuse.',
-    image: '/images/spaghetti-bolognaise.jpg',
+    image: '/images/spaghetti-bolognaise.svg',
     ingredients: [
       '400g de spaghetti',
       '300g de bœuf haché',
@@ -31,13 +31,17 @@ export const mockRecipes: Recipe[] = [
     cookTime: 120,
     servings: 4,
     difficulty: 'moyen',
-    category: 'Plat principal'
+    category: 'Plat principal',
+    rating: 4.5,
+    isVegetarian: false,
+    isVegan: false,
+    tags: ['italien', 'pâtes', 'sauce', 'classique']
   },
   {
     id: '2',
     title: 'Tarte aux Pommes',
     description: 'Une délicieuse tarte aux pommes traditionnelle française.',
-    image: '/images/tarte-aux-pommes.jpg',
+    image: '/images/tarte-aux-pommes.svg',
     ingredients: [
       '1 pâte brisée',
       '4 pommes',
@@ -61,13 +65,17 @@ export const mockRecipes: Recipe[] = [
     cookTime: 40,
     servings: 6,
     difficulty: 'facile',
-    category: 'Dessert'
+    category: 'Dessert',
+    rating: 4.8,
+    isVegetarian: true,
+    isVegan: false,
+    tags: ['dessert', 'fruit', 'tarte', 'français']
   },
   {
     id: '3',
     title: 'Coq au Vin',
     description: 'Un plat traditionnel français mijoté dans le vin rouge.',
-    image: '/images/coq-au-vin.jpg',
+    image: '/images/coq-au-vin.svg',
     ingredients: [
       '1 coq ou poulet découpé',
       '200g de lardons',
@@ -94,13 +102,17 @@ export const mockRecipes: Recipe[] = [
     cookTime: 110,
     servings: 4,
     difficulty: 'difficile',
-    category: 'Plat principal'
+    category: 'Plat principal',
+    rating: 4.6,
+    isVegetarian: false,
+    isVegan: false,
+    tags: ['français', 'traditionnel', 'vin', 'poulet']
   },
   {
     id: '4',
     title: 'Salade César',
     description: 'Une salade fraîche et croquante avec sa sauce emblématique.',
-    image: '/images/salade-cesar.jpg',
+    image: '/images/salade-cesar.svg',
     ingredients: [
       '1 salade romaine',
       '100g de parmesan',
@@ -127,13 +139,17 @@ export const mockRecipes: Recipe[] = [
     cookTime: 0,
     servings: 2,
     difficulty: 'facile',
-    category: 'Entrée'
+    category: 'Entrée',
+    rating: 4.3,
+    isVegetarian: false,
+    isVegan: false,
+    tags: ['salade', 'frais', 'américain', 'rapide']
   },
   {
     id: '5',
     title: 'Crème Brûlée',
     description: 'Le dessert français par excellence avec sa croûte caramélisée.',
-    image: '/images/creme-brulee.jpg',
+    image: '/images/creme-brulee.svg',
     ingredients: [
       '500ml de crème fraîche',
       '6 jaunes d\'œufs',
@@ -155,13 +171,17 @@ export const mockRecipes: Recipe[] = [
     cookTime: 45,
     servings: 4,
     difficulty: 'moyen',
-    category: 'Dessert'
+    category: 'Dessert',
+    rating: 4.7,
+    isVegetarian: true,
+    isVegan: false,
+    tags: ['dessert', 'français', 'crème', 'élégant']
   },
   {
     id: '6',
     title: 'Quiche Lorraine',
     description: 'La quiche traditionnelle de Lorraine avec des lardons.',
-    image: '/images/quiche-lorraine.jpg',
+    image: '/images/quiche-lorraine.svg',
     ingredients: [
       '1 pâte brisée',
       '200g de lardons',
@@ -186,6 +206,10 @@ export const mockRecipes: Recipe[] = [
     cookTime: 35,
     servings: 6,
     difficulty: 'facile',
-    category: 'Plat principal'
+    category: 'Plat principal',
+    rating: 4.4,
+    isVegetarian: false,
+    isVegan: false,
+    tags: ['français', 'traditionnel', 'tarte', 'lorraine']
   }
 ];
