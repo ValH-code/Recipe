@@ -29,11 +29,18 @@ export default function About() {
               ✨ Fonctionnalités
             </h2>
             <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-              <li>Collection de recettes variées avec photos</li>
-              <li>Recherche par nom, ingrédients ou catégorie</li>
+              <li>Collection de recettes variées avec photos SVG optimisées</li>
+              <li>Recherche intelligente par nom, ingrédients ou catégorie</li>
+              <li>Filtres avancés (catégorie, difficulté, temps de préparation, options alimentaires)</li>
+              <li>Tri des recettes (nom, temps, difficulté, note)</li>
+              <li>Système de favoris avec sauvegarde locale</li>
+              <li>Notifications toast pour les actions utilisateur</li>
               <li>Instructions détaillées étape par étape</li>
-              <li>Informations nutritionnelles et temps de préparation</li>
-              <li>Interface moderne et responsive</li>
+              <li>Statistiques de recettes et informations nutritionnelles</li>
+              <li>Images avec chargement optimisé et fallback</li>
+              <li>Interface moderne et entièrement responsive</li>
+              <li>Animations fluides et transitions CSS</li>
+              <li>Design accessible avec focus et navigation clavier</li>
             </ul>
 
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
@@ -63,11 +70,12 @@ export default function About() {
                     <li>prepTime et cookTime (en minutes)</li>
                     <li>servings (nombre de portions)</li>
                     <li>difficulty (facile, moyen, difficile)</li>
-                    <li>category (type de plat)</li>
+                    <li>rating (note sur 5) et tags</li>
+                    <li>isVegetarian et isVegan (options alimentaires)</li>
                   </ul>
                 </li>
                 <li>
-                  Ajoutez l&apos;image correspondante dans le dossier <code className="bg-gray-200 px-2 py-1 rounded">public/images/</code>
+                  Ajoutez l&apos;image correspondante au format SVG dans le dossier <code className="bg-gray-200 px-2 py-1 rounded">public/images/</code>
                 </li>
                 <li>
                   Sauvegardez et rechargez la page pour voir votre nouvelle recette !
@@ -78,33 +86,53 @@ export default function About() {
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
               🛠️ Technologies utilisées
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
               <div className="bg-blue-50 p-4 rounded-lg text-center">
                 <div className="text-2xl mb-2">⚛️</div>
-                <div className="font-medium text-gray-800">Next.js</div>
-                <div className="text-sm text-gray-600">React Framework</div>
+                <div className="font-medium text-gray-800">Next.js 15</div>
+                <div className="text-sm text-gray-600">App Router</div>
               </div>
               <div className="bg-blue-50 p-4 rounded-lg text-center">
                 <div className="text-2xl mb-2">🎨</div>
                 <div className="font-medium text-gray-800">Tailwind CSS</div>
-                <div className="text-sm text-gray-600">Styling</div>
+                <div className="text-sm text-gray-600">Styling moderne</div>
               </div>
               <div className="bg-blue-50 p-4 rounded-lg text-center">
                 <div className="text-2xl mb-2">📝</div>
                 <div className="font-medium text-gray-800">TypeScript</div>
                 <div className="text-sm text-gray-600">Type Safety</div>
               </div>
+              <div className="bg-blue-50 p-4 rounded-lg text-center">
+                <div className="text-2xl mb-2">🧵</div>
+                <div className="font-medium text-gray-800">Yarn</div>
+                <div className="text-sm text-gray-600">Package Manager</div>
+              </div>
             </div>
+
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+              ✅ Fonctionnalités déjà disponibles
+            </h2>
+            <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
+              <li>✅ Système de favoris avec sauvegarde locale</li>
+              <li>✅ Filtres avancés par catégorie, difficulté, temps et options alimentaires</li>
+              <li>✅ Tri des recettes par différents critères</li>
+              <li>✅ Notifications toast pour les interactions</li>
+              <li>✅ Images optimisées avec chargement progressif</li>
+              <li>✅ Design responsive et animations fluides</li>
+            </ul>
 
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
               🎯 Prochaines fonctionnalités
             </h2>
             <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-              <li>Système de notes et commentaires</li>
-              <li>Sauvegarde des recettes favorites</li>
+              <li>Système de notes et commentaires utilisateurs</li>
               <li>Calcul automatique pour ajuster les portions</li>
               <li>Timer intégré pour les étapes de cuisson</li>
               <li>Partage social des recettes</li>
+              <li>Mode sombre / clair</li>
+              <li>Suggestions de recettes similaires</li>
+              <li>Export/impression des recettes</li>
+              <li>Base de données persistante</li>
             </ul>
 
             <div className="bg-orange-50 p-6 rounded-lg">
